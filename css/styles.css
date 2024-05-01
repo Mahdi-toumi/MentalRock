@@ -228,8 +228,8 @@ section{
 }
 
 .about .row .content .icons-container .icons p{
-    font-size:1.2rem;
-    color:var(--black);
+    font-size:1rem;
+    color:gray;
     line-height: 1.5;
     padding: 1rem 1rem;
 }
@@ -343,7 +343,10 @@ section{
 
 
 .space {
-    padding: 30px;
+    padding: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -508,6 +511,10 @@ section{
     border-radius: 0.5rem;
     padding: 0 1.5rem;
     margin: 20px;
+}
+.video:hover{
+    transform: scale(1.3);
+    background-color: white;
 
 }
 .videos{
@@ -524,6 +531,27 @@ section{
     margin-right: auto;
 }
 
+
+.return {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-color); 
+    border-radius: 50%; 
+    text-align: center; 
+    line-height: 40px;
+    transition: background-color 0.3s, transform 0.3s;
+    align-items: center;
+}
+.return i{
+    color: #fff;
+}
+.return:hover {
+    background-color: var(--main-color); 
+
+}
 
 
 

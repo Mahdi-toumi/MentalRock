@@ -182,7 +182,8 @@ section{
   
   
   .btn:hover {
-    background-color: var(--black);
+    background-color: var(--third-color);
+    opacity: 0.8;
     border-color: black;
   }
   
@@ -265,4 +266,23 @@ section{
     margin-bottom: 62px;
 }
 
+.return {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-color); 
+    border-radius: 50%; 
+    text-align: center; 
+    line-height: 40px;
+    transition: background-color 0.3s, transform 0.3s;
+    align-items: center;
+}
+.return i{
+    color: #fff;
+}
+.return:hover {
+    background-color: var(--main-color); 
 
+}
