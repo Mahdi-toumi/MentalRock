@@ -28,16 +28,16 @@ html{
 }
 
 .header{
-    position:fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 25px 9%;
-    background: white;
-    align-items: center;
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    background: rgb(255, 255, 255);
+    box-shadow: var(--box-shadow);
     height: 90px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding:2rem 9%;
 }
 
 .header .navbar a{
@@ -52,17 +52,17 @@ html{
 
 #menu-btn{
     cursor: pointer;
-    font-size: 40px;
-    padding:16px 20px;
-    border-radius: 8px;
-    color: gray;
-    display: flex;
+    font-size: 2.5rem;
+    padding:1rem 1.3rem;
+    border-radius: .5rem;
+    color: var(--main-color);
+    background: var(--bg);
+    display: none;
 }
 
 #menu-btn:hover{
-    color: white;
-    background: var(--bg);
-    padding: 15px 15px;
+    color: #fff;
+    background: var(--main-color);
 }
 section{
     padding:2rem 9%;
@@ -76,13 +76,22 @@ section{
     background: var(--bg);
     position: relative;
 }
+
+.home .content .parag{
+    width:500px ;
+}
+
 .home .content h3{
     font-size: 43px;
     color:var(--secondary-color);
     line-height: 1.8;
     padding-top: 5%;
 }
-
+.home .content h2{
+    font-size: 33px;
+    color:var(--main-color);
+    padding-top: 5%;
+}
 .home .content p{
     font-size: 18px;
     color:white;
@@ -231,11 +240,11 @@ section{
 
 
 .heading{
-    margin-top: 120px;
+    margin-top: 50px;
     margin-bottom: 60px;
     text-align: center;
     padding-bottom: 3rem;
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--main-color);
     padding-bottom: 3rem;
 }
@@ -471,6 +480,36 @@ section{
     }
 
 }
+
+.videos .sect .titl h3 {
+    color: white;
+    border-radius: 0.5rem;
+    background: var(--light-color);
+    padding: 0 1.5rem;
+    box-shadow: var(--box-shadow);
+    font-size: 3rem;
+}
+
+.videos .sect .titl {
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.video {
+    width: 300px;
+    height: 144px;
+    border-radius: 0.5rem;
+    background: var(--light-color);
+    padding: 0 1.5rem;
+    box-shadow: var(--box-shadow);
+    margin: 20px;
+}
+
+
 
 
 
