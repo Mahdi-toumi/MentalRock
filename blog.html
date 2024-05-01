@@ -4,42 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feel well blogs</title>
-
+    <title>Feel Well Blogs</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
     <link href="css/styles.css" rel="stylesheet">
-
+    <link href="css/blog.css" rel="stylesheet">
 </head>
-
 <body>
     <header class="header">
-    
-        <a href="index.html" class="logo"><img src="images/logo.jpg" width= 60px></a>
-    
+        <a href="index.html" class="logo"><img src="images/logo.jpg" width="60" alt="Logo"></a>
         <nav class="navbar">
-            <a href="index.html">home</a>
-            <a href="blog.html">blog</a>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
             <a href="happyspace.html">Happy Space</a>
-            <a href="">Developers</a>
         </nav>
-    
         <div id="menu-btn" class="fas fa-bars"></div>
-    
     </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Blogs</h3>
+            <p>Helping you know more about Mental Health</p>
+        </div>
+        <div class="image">
+            <img src="images/blog.png" alt="Blog Image">
+        </div>
+    </section>
+
+    <section class="quotes">
+        <div class="write">
+            <h3 class="heading">“You don't have to control your thoughts. You just have to stop letting them control you.” <span >Dan Millman</span></h3>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="wrapper">
+            <div class="top-title">
+                <h4 class="heading"><span>Read</span> Me</h4>
+            </div>
+            <div class="slider-wrapper">
+                <div id="button-left" class="button no-select"><i class="material-icons"></i></div>
+                <div class="slider">
+                    <img src="images/mental-health-quotes-brene-brown-1651243007.jpg" width="320" height="568" alt="Image 1">
+                    <img src="images/mental-health-quotes-cammie-mcgovern-1651243006.jpg" width="320" height="568" alt="Image 2">
+                    <img src="images/mental-health-quotes-john-green-1651243007.jpg" width="320" height="568" alt="Image 3">
+                    <img src="images/mental-health-quotes-noam-shpancer-1651243006.jpg" width="320" height="568" alt="Image 4">
+                    <img src="images/mental_1.jpg" width="320" height="568" alt="Image 5">
+                </div>
+                <div id="button-right" class="button no-select"><i class="material-icons"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+            
+    
+            <div class="box" style="padding-left: 0%;">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+    
+            <div class="box" style="padding-left: 70%;">
+                <h3>Follow Us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+    
+        </div>
+    
+        <div class="credit">created by <span>Feel Well Team 
+            </span> | all rights reserved</div>
+    
+    </section>
+   
+
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+    <script src="js/script.js"></script>
+    <script src="js/blogs.js"></script>
+
 </body>
-
-
-<section class="home" id="home">
-
-    <div class="content">
-        <h3>Blogs</h3>
-        <p>help you know more about Mental Health</p>
-    </div>
-
-    <div class="image">
-        <img src="images/blog.png" alt="">
-    </div>
-
-</section>
+</html>
