@@ -353,6 +353,9 @@ section{
 .quote{
     background-color: var(--bg);
 }
+.quotes{
+    margin-top: 40px;
+}
 
 .write {
     margin-top: 40px;
@@ -503,9 +506,7 @@ section{
     width: 300px;
     height: 144px;
     border-radius: 0.5rem;
-    background: var(--light-color);
     padding: 0 1.5rem;
-    box-shadow: var(--box-shadow);
     margin: 20px;
 
 }
@@ -514,9 +515,15 @@ section{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-  
 }
+.container{
+    margin-top: 60px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
