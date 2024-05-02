@@ -50,15 +50,18 @@ html{
     color:var(--light-color);
 }
 
+
+
 #menu-btn{
     cursor: pointer;
     font-size: 2.5rem;
     padding:1rem 1.3rem;
     border-radius: .5rem;
-    color: var(--main-color);
-    background: var(--bg);
+    color: white;
+    background: var(--light-color);
     display: none;
 }
+
 
 #menu-btn:hover{
     color: #fff;
@@ -188,6 +191,8 @@ section{
     border-color:#5FC2BA ;
     box-shadow: var(--box-shadow);
 }
+
+
 .about .row .content .icons-container .icons:hover {
     transform: scale(1.2);
     background-color: white;
@@ -199,6 +204,7 @@ section{
     gap:1rem;
     padding-top: 2rem;
 }
+
 
 
 
@@ -459,7 +465,9 @@ section{
     }
 
     .header .navbar a:hover{
-        background: var(--bg);
+        background: var(--light-color);
+        color: white;
+        transition: 0.15s ease-out;
     }
 
     .home .content{
