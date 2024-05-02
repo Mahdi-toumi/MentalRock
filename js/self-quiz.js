@@ -500,7 +500,7 @@ function checkResults() {
 
   }
   else if (questionSet0.css('display') === "none" && questionSet1.css('display') === "none" && questionSet2.css('display') === "none") {
-    resultsBtn.innerHTML = "Check My responses";
+    resultsBtn.innerHTML = "Vérifiez mes réponses";
     questionSet0.css('display', 'inline')
     questionSet1.css('display', 'inline')
     questionSet2.css('display', 'inline')
@@ -510,163 +510,163 @@ function checkResults() {
     // resultsBtn.css('background','#93A681');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-    <h4>It's a nice day outside, or inside. Either way, pump up the music and dance to enjoy it!</h4>
+    <h3>Voici vos résultats !</h3>
+    <h4>C'est une belle journée dehors, ou à l'intérieur. De toute façon, montez le volume de la musique et dansez pour en profiter !</h4>
      `);
   } else if (score === 11) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-    <h4>Glad you're feeling good. Treat yourself to something nice today while you enjoy these sick beats. You deserve it :D</h4>
+    <h3>Voici vos résultats !</h3>
+    <h4>Ravi que vous vous sentiez bien. Faites-vous plaisir aujourd'hui pendant que vous profitez de ces superbes rythmes. Vous le méritez :D</h4>
     `);
   } else if (score === 13) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-    <h4>Happy you're doing well today! Hit up a friend and share something cool with them (they might enjoy your playlist too)</h4>
+    <h3>Voici vos résultats !</h3>
+    <h4>Heureux que vous alliez bien aujourd'hui ! Appelez un ami et partagez quelque chose de cool avec lui (il pourrait aussi aimer votre playlist)</h4>
      `);
   } else if (score === 17) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-    <h4>Take a second out of your day to appreciate something good that happened today, no matter how small it was! Don't forget moments like these. </h4>
+    <h3>Voici vos résultats !</h3>
+    <h4>Prenez un instant dans votre journée pour apprécier quelque chose de bon qui s'est passé aujourd'hui, peu importe sa taille ! N'oubliez pas ces moments.</h4>
     
     `)
   } else if (score === 19) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-    <h4>There's something refreshing about spending time outside. Channel your inner country and breathe in the open road! </h4>
+    <h3>Voici vos résultats !</h3>
+    <h4>Il y a quelque chose de rafraîchissant à passer du temps dehors. Libérez votre côté cowboy et respirez à pleins poumons ! </h4>
     `)
   } else if (score === 14) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-    <h4>It's okay to feel down sometimes. Take some time to acknowledge how you feel and let it all out. You got this :)</h4>
+    <h3>Voici vos résultats !</h3>
+    <h4>Il est normal de se sentir déprimé parfois. Prenez le temps de reconnaître ce que vous ressentez et laissez tout sortir. Vous pouvez le faire :)</h4>
      `)
   } else if (score === 22) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>There's no shame in being upset. Something that helps me: the worst days are still only 24 hours long! We believe in you <3 </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Il n'y a pas de honte à être contrarié. Quelque chose qui m'aide : les pires journées ne durent que 24 heures ! Nous croyons en vous <3 </h4>
     `)
   } else if (score === 26) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>"This is for everybody going through tough times, believe me, been there done that, but everyday above ground is a great day. Remember that" -- The legend Pitbull Mr. Worldwide</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>"Ceci est pour tous ceux qui traversent des moments difficiles, croyez-moi, je suis passé par là, mais chaque jour passé sur cette terre est un jour formidable. Souvenez-vous-en." -- La légende Pitbull Mr. Worldwide</h4>
      `)
   } else if (score === 34) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>It's okay if you need time by yourself, but theres no shame in relying on friends, family or others if you have to. </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Il est normal si vous avez besoin de temps pour vous, mais il n'y a pas de honte à compter sur des amis, de la famille ou d'autres personnes si vous en avez besoin.</h4>
      `)
   } else if (score === 38) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Even cowboys get the blues...if you need to be distracted, try some relaxing hobbies to pass the time. </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Même les cowboys ont le blues... si vous avez besoin d'être distrait, essayez des passe-temps relaxants pour passer le temps. </h4>
      `)
   } else if (score === 21) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Listen to something loud and fast! Being angry sometimes is okay too.</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Écoutez quelque chose de fort et rapide ! Être en colère parfois, c'est aussi acceptable.</h4>
     `)
   } else if (score === 33) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Your feelings are valid no matter what. One way to let it out is to exercise (enjoy this playlist while you do, haha)</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Vos sentiments sont valables quoi qu'il arrive. Une façon de les exprimer est de faire de l'exercice (appréciez cette playlist pendant que vous le faites, haha)</h4>
    
     `)
   } else if (score === 39) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Don't be afraid to distance yourself from a stressful situation if you have to. Your mental health impacts a lot of your physical health as well. </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>N'ayez pas peur de vous éloigner d'une situation stressante si vous en avez besoin. Votre santé mentale a un impact sur une grande partie de votre santé physique également. </h4>
      `)
   } else if (score === 51) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Take a second to breathe and pause to assess the situation. Sometimes taking it slow is a good thing when you're angry as well.</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Prenez un instant pour respirer et faire une pause afin d'évaluer la situation. Parfois, prendre son temps est une bonne chose, même quand vous êtes en colère.</h4>
   
     `)
   } else if (score === 57) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Try writing out why you're mad in a letter or email. Once you've perfected and completed it, delete it once you're ready to let go. </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Essayez d'écrire pourquoi vous êtes en colère dans une lettre ou un e-mail. Une fois que vous l'avez parfaitement rédigé et terminé, supprimez-le lorsque vous êtes prêt à passer à autre chose. </h4>
      `)
   } else if (score === 28) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Jitters are completely normal. Distract yourself with something fast and loud!</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Les tremblements sont tout à fait normaux. Distraire-vous avec quelque chose de rapide et fort !</h4>
    
     `)
   } else if (score === 44) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>If something has the potential to go horribly wrong, it also has the potential of going fantastically well. You never know! </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Si quelque chose a le potentiel de mal tourner, il a aussi le potentiel de très bien se passer. Vous ne savez jamais ! </h4>
   
     `)
   } else if (score === 52) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Make sure to treat yourself once you've finished what you're nervous or tense about. Get excited for it!</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Assurez-vous de vous faire plaisir une fois que vous avez terminé ce qui vous rend nerveux ou tendu. Réjouissez-vous à l'avance !</h4>
     `)
 
   } else if (score === 68) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Talk it out with a friend! Being nervous or tense together is better than worrying alone. </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Parlez-en avec un ami ! Être nerveux ou tendu ensemble vaut mieux que de s'inquiéter seul. </h4>
    
     `)
   } else if (score === 76) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4> Express how you feel in whatever way you can. Make charts to organize your thoughts, or write emails or letters to yourself. Surprising how much it can help!</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Exprimez ce que vous ressentez de toutes les manières possibles. Faites des graphiques pour organiser vos pensées, ou écrivez-vous des e-mails ou des lettres. Surprenant de voir combien cela peut aider !</h4>
      `)
   } else if (score === 19) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>You've been working hard. Go get some rest! Your body will thank you.</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Vous avez travaillé dur. Allez vous reposer ! Votre corps vous en sera reconnaissant.</h4>
     
     `)
   } else if (score === 35) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Need to go to sleep but can't? Try tensing your muscles for a few seconds, then releasing them completely. Repeat a few times, and you'll be asleep before you know it! Goodnight~~</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Vous devez aller vous coucher mais vous ne pouvez pas ? Essayez de tendre vos muscles pendant quelques secondes, puis relâchez-les complètement. Répétez quelques fois et vous serez endormi avant même de vous en rendre compte ! Bonne nuit~~</h4>
    
 
     `)
@@ -674,24 +674,24 @@ function checkResults() {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Sometimes life gets in the way of a good sleep schedule. Little by little, take the time to make relaxing part of your day. </h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Parfois, la vie se met en travers d'un bon horaire de sommeil. Petit à petit, prenez le temps de rendre la relaxation partie intégrante de votre journée. </h4>
    
     `)
   } else if (score === 65) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>You've been working hard. Go get some rest! Your body will thank you.</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Vous avez travaillé dur. Allez vous reposer ! Votre corps vous en sera reconnaissant.</h4>
    
     `)
   } else if (score === 85) {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Studies have shown that people who sleep between 8-9.5 hours at night tend to wake up happier. Gotta start somewhere!</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Des études ont montré que les personnes qui dorment entre 8 et 9,5 heures par nuit ont tendance à se réveiller plus heureuses. Il faut bien commencer quelque part !</h4>
   
 
     `)
@@ -699,13 +699,14 @@ function checkResults() {
     // resultsBtn.css('background','#FFD400');
     resultsBtn.css('visibility', 'hidden');
     resultsShow.append(`
-    <h3>Here are your results!</h3>
-     <h4>Time to hit the hay...give your eyes a break! You'll see how much better you'll feel :)</h4>
+    <h3>Voici vos résultats !</h3>
+     <h4>Il est temps d'aller au lit... donnez un repos à vos yeux ! Vous verrez à quel point vous vous sentirez mieux :)</h4>
 
 
 
     `)
   }
 }
+
 
 
