@@ -23,8 +23,7 @@ The platform was built using the **Scrum methodology**, focusing on iterative an
 ## Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: PHP (v8.1), MySQL
-- **Development Tools**: Visual Studio Code, XAMPP
+- **Development Tools**: Visual Studio Code
 - **Design Tools**: UML for system modeling
 
 ## Future Enhancements
